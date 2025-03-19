@@ -23,10 +23,10 @@ The project consists of multiple tables, including:
 3. Execute the `FlightBookingSystem.sql` script to create tables and insert sample data.
 4. Run queries to test the functionality.
 
-## 📸 Screenshots
+## Screenshots
 Screenshots of query results and database structure are stored in the `screenshots/` folder.
 
-## 🔍 Sample Queries
+## Sample Queries
 Here are some example SQL queries you can run:
 ```sql
 -- Retrieve all available flights
@@ -44,12 +44,12 @@ JOIN Airlines ON Flights.airline_id = Airlines.id
 GROUP BY Airlines.name;
 ```
 
-## 📜 License
+## License
 This project is open-source and available under the [MIT License](LICENSE).
 
-## 🤝 Contributing
+## Contributing
 Feel free to fork this repository, open issues, and submit pull requests.
 
-## 📬 Contact
+## Contact
 For any questions or suggestions, reach out via GitHub Issues.
 
